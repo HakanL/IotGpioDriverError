@@ -29,4 +29,4 @@ gpioButton.Press += (s, e) =>
     Console.WriteLine("GPIO 17 button pressed");
 };
 
-Console.ReadLine();
+throw new Exception("Test");
